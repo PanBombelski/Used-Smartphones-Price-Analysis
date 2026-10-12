@@ -1,36 +1,36 @@
-# Used Smartphones Price Analysis
+# Analiza cen używanych smartfonów
 
-A university project on predicting the prices of used smartphones in Poland, using listings from Polish online marketplaces and regression models.
+Projekt studencki dotyczący przewidywania cen używanych smartfonów w Polsce, na podstawie ogłoszeń z polskich serwisów internetowych oraz modeli regresji.
 
 ## Idea
 
-Used smartphone prices depend on many factors: model, storage capacity, condition, color, age, and seller location. This project gathers a dataset of used-phone listings, measures how strongly each factor is correlated with the price, and builds regression models that estimate the price of a phone based on its features.
+Cena używanego smartfona zależy od wielu czynników: modelu, pojemności pamięci, stanu, koloru, wieku urządzenia i lokalizacji sprzedawcy. Projekt zbiera dane o ogłoszeniach sprzedaży używanych telefonów, mierzy, jak silnie każdy czynnik jest skorelowany z ceną, i buduje modele regresji, które szacują cenę telefonu na podstawie jego cech.
 
-The main questions are:
+Główne pytania projektu:
 
-- Which factors have the largest influence on the price of a used smartphone?
-- How strong are the correlations between these factors and the price?
-- How accurately can a regression model predict the price of a listing it has not seen before?
+- Które czynniki mają największy wpływ na cenę używanego smartfona?
+- Jak silne są korelacje tych czynników z ceną?
+- Jak dokładnie model regresji przewiduje cenę ogłoszenia, którego wcześniej nie widział?
 
-## Current status
+## Aktualny status
 
-**Stage 1: Project setup and data source (in progress)**
-- Repository structure and README
-- Definition of the data fields to collect
-- Decision on the data source
+**Etap 1: Konfiguracja projektu i źródło danych (w toku)**
+- Struktura repozytorium i README
+- Ustalenie pól danych do zebrania
+- Decyzja o źródle danych
 
-## Planned stages
+## Planowane etapy
 
-2. Data preparation: cleaning prices, removing duplicates and outliers, normalizing model names
-3. Exploratory analysis: price distributions and correlations between features and price
-4. Regression models: baseline, linear regression, regularized regression, and tree-based models
-5. Evaluation: comparison of models with MAE, RMSE, and R², error analysis, and feature importance
-6. Delivery: reproducible pipeline, final results, and a release (v1.0)
+2. Przygotowanie danych: czyszczenie cen, usuwanie duplikatów i wartości odstających, normalizacja nazw modeli
+3. Analiza eksploracyjna: rozkłady cen i korelacje między cechami a ceną
+4. Modele regresji: model bazowy, regresja liniowa, regresja z regularyzacją i modele drzewiaste
+5. Ewaluacja: porównanie modeli metrykami MAE, RMSE i R², analiza błędów oraz ważność cech
+6. Wdrożenie: powtarzalny pipeline, końcowe wyniki i wydanie (v1.0)
 
-## Context
+## Kontekst
 
-University project (Politechnika Rzeszowska), a subject on predictive models.
+Projekt studencki (Politechnika Rzeszowska), przedmiot dotyczący modeli predykcyjnych.
 
-## Polish version
+## Wersja angielska
 
-Zobacz [wersję po polsku](README.pl.md).
+See [english version](README.md).
