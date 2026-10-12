@@ -1,0 +1,6 @@
+# Dane surowe i wygenerowane, nie wysyłamy na GitHuba
+data/raw/*
+!data/raw/.gitkeep
+
+# Środowisko wirtualne
+.venv/
