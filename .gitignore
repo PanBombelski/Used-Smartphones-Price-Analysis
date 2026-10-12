@@ -1,9 +1,12 @@
 # Dane surowe i wygenerowane, nie wysyłamy na GitHuba
 data/raw/*
 !data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 
 # Środowisko wirtualne
 .venv/
+
 # Pliki macOS i cache Pythona
 .DS_Store
 __pycache__/
