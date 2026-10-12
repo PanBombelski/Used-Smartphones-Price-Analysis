@@ -4,3 +4,6 @@ data/raw/*
 
 # Środowisko wirtualne
 .venv/
+# Pliki macOS i cache Pythona
+.DS_Store
+__pycache__/
